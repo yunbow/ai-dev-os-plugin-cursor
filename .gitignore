@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AI coding tools (user-local config — not part of this repo)
+# NOTE: The following are INTENTIONALLY tracked in this plugin repo:
+#   rules/            — .mdc rule files (distributed to users)
+#   templates/cursorrules.template — Template for user's .cursorrules (distributed to users)
+.claude/
+CLAUDE.md
+.kiro/
+AGENTS.md
+.cursor/
+.cursorrules

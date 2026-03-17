@@ -1,0 +1,28 @@
+---
+description: Warns about dependency rule violations when L1-L2 files are edited. L1 philosophy files must not contain tool-specific terms. L2 principle files must not contain framework-specific implementation details.
+globs: ["**/ai-dev-os/01_philosophy/**", "**/ai-dev-os/02_decision-criteria/**", "**/ai-dev-os/02_decision-criteria/**"]
+alwaysApply: false
+---
+
+# AI Dev OS Layer Dependency Check
+
+When editing L1 (philosophy) or L2 (principles/decision-criteria) files, enforce the dependency rule.
+
+## Rules
+
+### L1 Philosophy Files
+- MUST NOT contain tool-specific terms: "Claude Code", "Cursor", "Kiro", "Copilot", etc.
+- MUST NOT contain framework-specific terms: "Next.js", "FastAPI", "React", etc.
+- MUST remain abstract and timeless (lifespan: 2-5 years)
+
+### L2 Principles / Decision Criteria Files
+- MUST NOT contain framework-specific implementation details
+- MUST NOT reference specific library APIs
+- MAY reference general paradigms (OOP, FP, etc.)
+- MUST remain at the principle level (lifespan: 1-3 years)
+
+## When Violations Are Found
+Warn the user:
+- Explain which term violates the dependency rule
+- Suggest moving the detail to L3 (guidelines) or L4 (AI frames)
+- Quote the dependency rule: "Upper layers never reference lower layers"

@@ -1,0 +1,55 @@
+---
+description: Generates a ticket (local file or GitHub Issue) with implementation summary and checklist candidates derived from AI Dev OS guidelines. Used to create structured implementation tasks.
+globs:
+alwaysApply: false
+---
+
+# AI Dev OS Ticket Generation
+
+## Execution Flow
+
+### 1. Analyze the Request
+Parse the user's request and identify the implementation goal.
+
+### 2. Identify Affected Files
+Search the codebase to determine files that will be modified, created, or deleted.
+
+### 3. Parse .cursorrules and Load Guidelines
+Extract guideline file paths and read them to understand active rules.
+
+### 4. Build Dynamic Mapping
+Map affected files to their relevant guidelines using file pattern matching.
+
+### 5. Extract Checklist Items
+From the mapped guidelines, extract items relevant to this ticket.
+
+### 6. Determine Output Destination
+Ask the user:
+- **Local file**: Create `TICKET-NNN-slug.md` in the project
+- **GitHub Issue**: Use `gh issue create`
+
+### 7. Present Preview
+
+```markdown
+## Ticket Preview
+
+### Title
+> [Concise title]
+
+### Description
+[What needs to be done and why]
+
+### Implementation Summary
+| Action | File | Description |
+|--------|------|-------------|
+
+### Guideline Checklist
+- [ ] [Rule from guideline-file.md]
+- [ ] [Rule from guideline-file.md]
+
+### Acceptance Criteria
+1. ...
+```
+
+### 8. Create Ticket
+Create the ticket in the chosen format after user approval.
