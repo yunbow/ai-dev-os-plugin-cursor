@@ -1,5 +1,6 @@
 # AI Dev OS Plugin — Cursor
 
+[![Lint & Link Check](https://github.com/yunbow/ai-dev-os-plugin-cursor/actions/workflows/lint.yml/badge.svg)](https://github.com/yunbow/ai-dev-os-plugin-cursor/actions/workflows/lint.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../../../LICENSE)
 
 AI Dev OS 4계층 모델을 Cursor의 Rules 시스템(`.cursor/rules/*.mdc`)에 통합하는 플러그인입니다.

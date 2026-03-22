@@ -1,5 +1,6 @@
 # AI Dev OS Plugin — Cursor
 
+[![Lint & Link Check](https://github.com/yunbow/ai-dev-os-plugin-cursor/actions/workflows/lint.yml/badge.svg)](https://github.com/yunbow/ai-dev-os-plugin-cursor/actions/workflows/lint.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../../../LICENSE)
 
 AI Dev OS の4層モデルを Cursor の Rules システム（`.cursor/rules/*.mdc`）に統合するプラグインです。

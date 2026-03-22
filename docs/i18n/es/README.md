@@ -1,5 +1,6 @@
 # AI Dev OS Plugin — Cursor
 
+[![Lint & Link Check](https://github.com/yunbow/ai-dev-os-plugin-cursor/actions/workflows/lint.yml/badge.svg)](https://github.com/yunbow/ai-dev-os-plugin-cursor/actions/workflows/lint.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../../../LICENSE)
 
 Un plugin de Cursor que integra el modelo de 4 capas de AI Dev OS en el sistema de Rules de Cursor (`.cursor/rules/*.mdc`).
