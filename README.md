@@ -16,6 +16,8 @@ Bring AI Dev OS guidelines into **Cursor's Rules system** (`.mdc`):
 - **2 File-Scoped Rules** — Auto-check on code files, L1-L2 dependency warnings
 - **One command setup** — `npx ai-dev-os init --rules typescript --plugin cursor`
 
+![AI Dev OS Check & Fix Report](docs/images/ai-dev-os-check.png)
+
 ## Quick Start
 
 ```bash

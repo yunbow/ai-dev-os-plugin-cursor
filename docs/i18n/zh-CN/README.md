@@ -16,6 +16,8 @@
 - **2 File-Scoped Rules** — 代码文件自动检查、L1-L2 依赖警告
 - **一条命令安装** — `npx ai-dev-os init --rules typescript --plugin cursor`
 
+![AI Dev OS Check & Fix Report](../../../docs/images/ai-dev-os-check.png)
+
 ## 快速开始
 
 ```bash

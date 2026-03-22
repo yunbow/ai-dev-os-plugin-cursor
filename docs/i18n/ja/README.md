@@ -16,6 +16,8 @@ AI Dev OS ガイドラインを **Cursor の Rules システム**（`.mdc`）に
 - **2 File-Scoped Rules** — コードファイルの自動チェック、L1-L2 依存性警告
 - **ワンコマンドセットアップ** — `npx ai-dev-os init --rules typescript --plugin cursor`
 
+![AI Dev OS Check & Fix Report](../../../docs/images/ai-dev-os-check.png)
+
 ## クイックスタート
 
 ```bash

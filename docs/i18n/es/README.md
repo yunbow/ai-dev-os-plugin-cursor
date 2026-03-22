@@ -16,6 +16,8 @@ Integra las directrices de AI Dev OS en el **sistema de Rules de Cursor** (`.mdc
 - **2 File-Scoped Rules** — Verificación automática en archivos de código, advertencias de dependencia L1-L2
 - **Configuración con un comando** — `npx ai-dev-os init --rules typescript --plugin cursor`
 
+![AI Dev OS Check & Fix Report](../../../docs/images/ai-dev-os-check.png)
+
 ## Inicio rápido
 
 ```bash

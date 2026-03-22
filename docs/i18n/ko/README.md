@@ -16,6 +16,8 @@ AI Dev OS 가이드라인을 **Cursor의 Rules 시스템**(`.mdc`)에 통합:
 - **2 File-Scoped Rules** — 코드 파일 자동 검사, L1-L2 의존성 경고
 - **원커맨드 설정** — `npx ai-dev-os init --rules typescript --plugin cursor`
 
+![AI Dev OS Check & Fix Report](../../../docs/images/ai-dev-os-check.png)
+
 ## 빠른 시작
 
 ```bash
