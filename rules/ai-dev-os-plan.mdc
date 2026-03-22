@@ -28,7 +28,7 @@ Read the referenced guideline files to understand the active rules.
 ### 4. Build Dynamic Mapping
 Map affected files to their relevant guidelines using file pattern matching.
 
-If checklist templates exist in the plugin's `checklist-templates/` directory for the detected tech stack, load them as a reference.
+If checklist templates exist in `.cursor/checklist-templates/` for the detected tech stack, load them as a reference.
 
 ### 5. Extract Relevant Checklist Items
 From the mapped guidelines, extract items relevant to this specific change:

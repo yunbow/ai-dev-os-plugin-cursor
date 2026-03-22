@@ -20,11 +20,9 @@
 
 ```bash
 npx ai-dev-os init --rules typescript --plugin cursor
-# 将规则复制到 Cursor 目录：
-cp -r .ai-dev-os/plugin/rules/ .cursor/rules/
 ```
 
-> CLI 会添加子模块并复制 .cursorrules 模板。Cursor 规则（.mdc 文件）需要另外复制到 `.cursor/rules/`。
+> CLI 会添加子模块、复制 .cursorrules 模板，并将规则（.mdc 文件）自动复制到 `.cursor/rules/`。
 > 详情请参阅 [AI Dev OS CLI](https://github.com/yunbow/ai-dev-os-cli)。
 
 前提条件：[Cursor](https://cursor.sh/)（已启用 AI 功能）以及项目中已设置 AI Dev OS 层文件（L1-L3）（[TypeScript](https://github.com/yunbow/ai-dev-os-rules-typescript) / [Python](https://github.com/yunbow/ai-dev-os-rules-python)）。

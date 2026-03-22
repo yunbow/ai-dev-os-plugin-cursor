@@ -20,11 +20,9 @@ Bring AI Dev OS guidelines into **Cursor's Rules system** (`.mdc`):
 
 ```bash
 npx ai-dev-os init --rules typescript --plugin cursor
-# Then copy rules to Cursor's directory:
-cp -r .ai-dev-os/plugin/rules/ .cursor/rules/
 ```
 
-> The CLI adds submodules and copies the .cursorrules template. Cursor rules (.mdc files) need to be copied to `.cursor/rules/` separately.
+> The CLI adds submodules, copies the .cursorrules template, and copies rules (.mdc files) to `.cursor/rules/` automatically.
 > See [AI Dev OS CLI](https://github.com/yunbow/ai-dev-os-cli) for details.
 
 Requires [Cursor](https://cursor.sh/) with AI features enabled and AI Dev OS layer files (L1-L3) in your project ([TypeScript](https://github.com/yunbow/ai-dev-os-rules-typescript) / [Python](https://github.com/yunbow/ai-dev-os-rules-python)).
