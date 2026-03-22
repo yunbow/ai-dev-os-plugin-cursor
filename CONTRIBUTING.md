@@ -5,6 +5,7 @@ Thank you for your interest in contributing!
 ## How to Contribute
 
 ### Reporting Issues
+
 - Use [GitHub Issues](https://github.com/yunbow/ai-dev-os-plugin-cursor/issues)
 - Specify which rule or template is affected
 
