@@ -33,7 +33,7 @@ npx ai-dev-os init --rules typescript --plugin cursor
 <details>
 <summary>手动设置</summary>
 
-**方法A：子模块**
+#### 方法A：子模块
 
 ```bash
 # 1. 将 AI Dev OS rules 添加为子模块
@@ -46,7 +46,7 @@ git submodule add https://github.com/yunbow/ai-dev-os-plugin-cursor.git .cursor/
 cp -r .cursor/plugins/ai-dev-os/rules/ .cursor/rules/
 ```
 
-**方法B：直接复制**
+#### 方法B：直接复制
 
 ```bash
 # 1. 将规则添加为子模块（同上）
@@ -57,8 +57,8 @@ git clone https://github.com/yunbow/ai-dev-os-plugin-cursor.git
 cp -r ai-dev-os-plugin-cursor/rules/ .cursor/rules/
 ```
 
-3. 在 Cursor 聊天中运行 `@ai-dev-os-init` 设置4层结构
-4. 开始编码 — 文件作用域规则会自动引导你
+1. 在 Cursor 聊天中运行 `@ai-dev-os-init` 设置4层结构
+2. 开始编码 — 文件作用域规则会自动引导你
 
 详情请参阅[操作指南](./operation-guide.md)。
 
@@ -100,7 +100,7 @@ cp -r ai-dev-os-plugin-cursor/rules/ .cursor/rules/
 <details>
 <summary>包结构</summary>
 
-```
+```text
 ai-dev-os-plugin-cursor/
 ├── rules/
 │   ├── ai-dev-os-init.mdc              # 设置向导

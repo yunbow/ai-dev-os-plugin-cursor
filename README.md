@@ -33,7 +33,7 @@ Requires [Cursor](https://cursor.sh/) with AI features enabled and AI Dev OS lay
 <details>
 <summary>Manual Setup</summary>
 
-**Option A: Submodule**
+#### Option A: Submodule
 
 ```bash
 # 1. Add AI Dev OS rules as submodule
@@ -46,7 +46,7 @@ git submodule add https://github.com/yunbow/ai-dev-os-plugin-cursor.git .cursor/
 cp -r .cursor/plugins/ai-dev-os/rules/ .cursor/rules/
 ```
 
-**Option B: Direct Copy**
+#### Option B: Direct Copy
 
 ```bash
 # 1. Add rules as submodule (same as above)
@@ -57,8 +57,8 @@ git clone https://github.com/yunbow/ai-dev-os-plugin-cursor.git
 cp -r ai-dev-os-plugin-cursor/rules/ .cursor/rules/
 ```
 
-3. Run `@ai-dev-os-init` in Cursor chat to set up the 4-layer structure
-4. Start coding — file-scoped rules will guide you automatically
+1. Run `@ai-dev-os-init` in Cursor chat to set up the 4-layer structure
+2. Start coding — file-scoped rules will guide you automatically
 
 See [Operation Guide](./docs/operation-guide.md) for detailed instructions.
 
@@ -100,7 +100,7 @@ See [Operation Guide](./docs/operation-guide.md) for detailed instructions.
 <details>
 <summary>Package Structure</summary>
 
-```
+```text
 ai-dev-os-plugin-cursor/
 ├── rules/
 │   ├── ai-dev-os-init.mdc              # Setup wizard

@@ -10,6 +10,7 @@ Thank you for your interest in contributing!
 - Specify which rule or template is affected
 
 ### Pull Requests
+
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
@@ -37,6 +38,7 @@ Thank you for your interest in contributing!
 ### Cross-Plugin Feature Parity
 
 When adding a new feature to this plugin, consider adding the equivalent to:
+
 - [ai-dev-os-plugin-claude-code](https://github.com/yunbow/ai-dev-os-plugin-claude-code) (as skill or hook)
 - [ai-dev-os-plugin-kiro](https://github.com/yunbow/ai-dev-os-plugin-kiro) (as steering rule)
 

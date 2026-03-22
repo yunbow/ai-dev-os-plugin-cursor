@@ -33,7 +33,7 @@ Requisitos: [Cursor](https://cursor.sh/) con funciones de IA habilitadas y archi
 <details>
 <summary>Configuración manual</summary>
 
-**Opción A: Submódulo**
+#### Opción A: Submódulo
 
 ```bash
 # 1. Agregar reglas de AI Dev OS como submódulo
@@ -46,7 +46,7 @@ git submodule add https://github.com/yunbow/ai-dev-os-plugin-cursor.git .cursor/
 cp -r .cursor/plugins/ai-dev-os/rules/ .cursor/rules/
 ```
 
-**Opción B: Copia directa**
+#### Opción B: Copia directa
 
 ```bash
 # 1. Agregar reglas como submódulo (igual que arriba)
@@ -57,8 +57,8 @@ git clone https://github.com/yunbow/ai-dev-os-plugin-cursor.git
 cp -r ai-dev-os-plugin-cursor/rules/ .cursor/rules/
 ```
 
-3. Ejecuta `@ai-dev-os-init` en el chat de Cursor para configurar la estructura de 4 capas
-4. Comienza a codificar — las reglas de alcance de archivo te guiarán automáticamente
+1. Ejecuta `@ai-dev-os-init` en el chat de Cursor para configurar la estructura de 4 capas
+2. Comienza a codificar — las reglas de alcance de archivo te guiarán automáticamente
 
 Consulta la [Guía de operación](./operation-guide.md) para instrucciones detalladas.
 
@@ -100,7 +100,7 @@ Consulta la [Guía de operación](./operation-guide.md) para instrucciones detal
 <details>
 <summary>Estructura del paquete</summary>
 
-```
+```text
 ai-dev-os-plugin-cursor/
 ├── rules/
 │   ├── ai-dev-os-init.mdc              # Asistente de configuración

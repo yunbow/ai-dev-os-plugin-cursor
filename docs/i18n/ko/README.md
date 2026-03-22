@@ -33,7 +33,7 @@ npx ai-dev-os init --rules typescript --plugin cursor
 <details>
 <summary>수동 설정</summary>
 
-**방법A: 서브모듈**
+#### 방법A: 서브모듈
 
 ```bash
 # 1. AI Dev OS rules를 서브모듈로 추가
@@ -46,7 +46,7 @@ git submodule add https://github.com/yunbow/ai-dev-os-plugin-cursor.git .cursor/
 cp -r .cursor/plugins/ai-dev-os/rules/ .cursor/rules/
 ```
 
-**방법B: 직접 복사**
+#### 방법B: 직접 복사
 
 ```bash
 # 1. 규칙을 서브모듈로 추가 (위와 동일)
@@ -57,8 +57,8 @@ git clone https://github.com/yunbow/ai-dev-os-plugin-cursor.git
 cp -r ai-dev-os-plugin-cursor/rules/ .cursor/rules/
 ```
 
-3. Cursor 채팅에서 `@ai-dev-os-init`을 실행하여 4계층 구조 설정
-4. 코딩 시작 — 파일 스코프 규칙이 자동으로 안내합니다
+1. Cursor 채팅에서 `@ai-dev-os-init`을 실행하여 4계층 구조 설정
+2. 코딩 시작 — 파일 스코프 규칙이 자동으로 안내합니다
 
 자세한 내용은 [운영 가이드](./operation-guide.md)를 참조하세요.
 
@@ -100,7 +100,7 @@ cp -r ai-dev-os-plugin-cursor/rules/ .cursor/rules/
 <details>
 <summary>패키지 구성</summary>
 
-```
+```text
 ai-dev-os-plugin-cursor/
 ├── rules/
 │   ├── ai-dev-os-init.mdc              # 설정 마법사

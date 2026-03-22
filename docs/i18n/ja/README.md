@@ -33,7 +33,7 @@ npx ai-dev-os init --rules typescript --plugin cursor
 <details>
 <summary>手動セットアップ</summary>
 
-**方法A: サブモジュール**
+#### 方法A: サブモジュール
 
 ```bash
 # 1. AI Dev OS rules をサブモジュールとして追加
@@ -46,7 +46,7 @@ git submodule add https://github.com/yunbow/ai-dev-os-plugin-cursor.git .cursor/
 cp -r .cursor/plugins/ai-dev-os/rules/ .cursor/rules/
 ```
 
-**方法B: 直接コピー**
+#### 方法B: 直接コピー
 
 ```bash
 # 1. ルールをサブモジュールとして追加（上記と同じ）
@@ -57,8 +57,8 @@ git clone https://github.com/yunbow/ai-dev-os-plugin-cursor.git
 cp -r ai-dev-os-plugin-cursor/rules/ .cursor/rules/
 ```
 
-3. Cursor チャットで `@ai-dev-os-init` を実行して4層構造をセットアップ
-4. コーディング開始 — ファイルスコープルールが自動でガイドします
+1. Cursor チャットで `@ai-dev-os-init` を実行して4層構造をセットアップ
+2. コーディング開始 — ファイルスコープルールが自動でガイドします
 
 詳細は[運用ガイド](./operation-guide.md)を参照してください。
 
@@ -100,7 +100,7 @@ cp -r ai-dev-os-plugin-cursor/rules/ .cursor/rules/
 <details>
 <summary>パッケージ構成</summary>
 
-```
+```text
 ai-dev-os-plugin-cursor/
 ├── rules/
 │   ├── ai-dev-os-init.mdc              # セットアップウィザード

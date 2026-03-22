@@ -24,6 +24,7 @@ git submodule add https://github.com/yunbow/ai-dev-os-plugin-cursor.git .cursor/
 ```
 
 Then copy or symlink the rules:
+
 ```bash
 cp -r .cursor/plugins/ai-dev-os/rules/ .cursor/rules/
 ```
@@ -78,14 +79,17 @@ Use `@ai-dev-os-why` to trace any rule back to its philosophical origin.
 ## Troubleshooting
 
 ### Rules not activating
+
 - Verify `.cursor/rules/` directory exists and contains `.mdc` files
 - Check that Cursor's AI features are enabled
 - Restart Cursor if rules were just added
 
 ### False positives from guideline-compliance
+
 - The rule only flags clear violations
 - For persistent false positives, adjust the relevant guideline in `ai-dev-os/03_guidelines/`
 
 ### Performance
+
 - File-scoped rules only activate on matching file patterns
 - Manual rules only activate when explicitly @mentioned
