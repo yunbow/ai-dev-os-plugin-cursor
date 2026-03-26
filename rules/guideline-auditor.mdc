@@ -19,3 +19,7 @@ Execute audits to ensure the quality of L3 guidelines.
 
 ## Output
 Comprehensive audit report (in Markdown format)
+
+## Language
+
+Respond in the same language as the project's .cursorrules file.

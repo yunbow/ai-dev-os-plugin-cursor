@@ -53,3 +53,7 @@ Ask the user:
 
 ### 8. Create Ticket
 Create the ticket in the chosen format after user approval.
+
+## Language
+
+Respond in the same language as the project's .cursorrules file.

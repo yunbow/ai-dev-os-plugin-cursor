@@ -100,3 +100,7 @@ Output in the following format:
 | # | File | Line | Rule | Description | Auto-fixable? |
 |---|------|------|------|-------------|---------------|
 ```
+
+## Language
+
+Respond in the same language as the project's .cursorrules file.

@@ -26,3 +26,7 @@ Warn the user:
 - Explain which term violates the dependency rule
 - Suggest moving the detail to L3 (guidelines) or L4 (AI frames)
 - Quote the dependency rule: "Upper layers never reference lower layers"
+
+## Language
+
+Respond in the same language as the project's .cursorrules file.

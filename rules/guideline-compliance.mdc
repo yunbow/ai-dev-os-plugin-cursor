@@ -19,3 +19,7 @@ When editing code files in this project, follow the AI Dev OS guidelines.
 - Check `ai-dev-os/03_guidelines/common/code.md` for basic coding rules
 - Check `ai-dev-os/03_guidelines/frameworks/` for framework-specific rules
 - Refer to .cursorrules for the full guideline file list and priority cascade
+
+## Language
+
+Respond in the same language as the project's .cursorrules file.

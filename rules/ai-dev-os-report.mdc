@@ -39,3 +39,7 @@ Determine the target period from the user's request (default: 1 week).
 1. ...
 2. ...
 ```
+
+## Language
+
+Respond in the same language as the project's .cursorrules file.
